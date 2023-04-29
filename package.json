@@ -1,7 +1,10 @@
 {
   "name": "@dialectik/katex-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Dialectik plugin for Katex mathematical formula",
   "main": "lib/index.mjs",
   "types": "lib/index.d.mts",

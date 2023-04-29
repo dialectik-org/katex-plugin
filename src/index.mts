@@ -6,7 +6,7 @@ const katexStylesheet = 'https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.mi
 
 const katexPlugin: IDialectikPlugin = {
   name: 'katex',
-  stylesheet: [katexStylesheet],
+  stylesheets: [katexStylesheet],
   remarkPlugins: [remarkMath],
   rehypePlugins: [rehypeKatex],
   isRequired: (markdown: string) => {
