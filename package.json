@@ -1,0 +1,26 @@
+{
+  "name": "@dialectik/katex-plugin",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Dialectik plugin for Katex mathematical formula",
+  "main": "lib/index.mjs",
+  "types": "lib/index.d.mts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --skipLibCheck true"
+  },
+  "keywords": [
+    "Dialectik",
+    "katex",
+    "plugin"
+  ],
+  "author": "benoit.rognier@edukera.com",
+  "license": "MIT",
+  "dependencies": {
+    "rehype-katex": "^6.0.3",
+    "remark-math": "^5.1.1"
+  },
+  "devDependencies": {
+    "@dialectik/plugin-interface": "^0.0.1"
+  }
+}
