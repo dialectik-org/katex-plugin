@@ -5,7 +5,6 @@ import remarkMath from 'remark-math';
 const katexStylesheet = 'https://cdn.jsdelivr.net/npm/katex@0.16.3/dist/katex.min.css';
 
 const katexPlugin: IDialectikPlugin = {
-  name: 'katex',
   stylesheets: [katexStylesheet],
   remarkPlugins: [remarkMath],
   rehypePlugins: [rehypeKatex],
