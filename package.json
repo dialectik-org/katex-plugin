@@ -1,6 +1,6 @@
 {
   "name": "@dialectik/katex-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -24,6 +24,6 @@
     "remark-math": "^5.1.1"
   },
   "devDependencies": {
-    "@dialectik/plugin-interface": "^1.0.8"
+    "@dialectik/plugin-interface": "^1.0.13"
   }
 }
